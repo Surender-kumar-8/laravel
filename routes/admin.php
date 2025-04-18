@@ -3,6 +3,5 @@
 use App\Http\Controllers\Admin\Web\HomeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/dashboard',[HomeController::class,'index']);
