@@ -9,8 +9,8 @@
   <meta name="keywords" content="Online Store">
   <meta name="description" content="Stylish - Shoes Online Store HTML Template">
 
-  <link rel="stylesheet" href="css/vendor.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="{{asset('assets/frontend')}}/css/vendor.css">
+  <link rel="stylesheet" type="text/css" href="{{asset('assets/frontend')}}/css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

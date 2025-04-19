@@ -20,3 +20,5 @@ console.log("sdfsd");
 document.getElementById("red").innerHTML = text;
 </script>
 @endsection
+
+

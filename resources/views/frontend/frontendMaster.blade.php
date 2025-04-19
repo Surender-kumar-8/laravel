@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+@include('frontend.layouts.head')
 
-<head>
+<body>
+    @include('frontend.layouts.svg')
+    @include('frontend.layouts.header')
+    @yield('content')
+    @include('frontend.layouts.footer')
+    @include('frontend.layouts.scripts')
+</body>
 
-</head>
+</html>
