@@ -10,7 +10,7 @@
             <img src="{{asset('assets/frontend')}}/images/card-image1.jpg" alt="shoes" class="img-fluid jarallax-img">
             <div class="cart-concern p-3 m-3 p-lg-5 m-lg-5">
               <h2 class="card-title display-3 light">Stylish shoes for Women</h2>
-              <a href="index.html"
+              <a href="#"
                 class="text-uppercase light mt-3 d-inline-block text-hover fw-bold light-border">Shop Now</a>
             </div>
           </div>
@@ -41,10 +41,10 @@
         </div>
         <div class="swiper-slide">
           <div class="card d-flex flex-row align-items-end border-0 large jarallax-keep-img">
-            <img src="{{asset('assets/frontend')}}/images/card-image4.jpg" alt="shoes" class="img-fluid jarallax-img">
+            <img src="{{asset('assets/frontend')}}/images/card-image1.jpg" alt="shoes" class="img-fluid jarallax-img">
             <div class="cart-concern p-3 m-3 p-lg-5 m-lg-5">
               <h2 class="card-title display-3 light">Stylish shoes for men</h2>
-              <a href="index.html"
+              <a href="#"
                 class="text-uppercase light mt-3 d-inline-block text-hover fw-bold light-border">Shop Now</a>
             </div>
           </div>
@@ -257,7 +257,7 @@
     <div class="row">
       <div class="col-lg-6 col-md-6 mb-4">
         <div class="collection-card card border-0 d-flex flex-row align-items-end jarallax-keep-img">
-          <img src="{{asset('frontend')}}/images/collection-item1.jpg" alt="product-item" class="border-rounded-10 img-fluid jarallax-img">
+          <img src="{{asset('assets/frontend')}}/images/collection-item1.jpg" alt="product-item" class="border-rounded-10 img-fluid jarallax-img">
           <div class="card-detail p-3 m-3 p-lg-5 m-lg-5">
             <h3 class="card-title display-3">
               <a href="#">Minimal Collection</a>
@@ -268,7 +268,7 @@
       </div>
       <div class="col-lg-6 col-md-6">
         <div class="collection-card card border-0 d-flex flex-row jarallax-keep-img">
-          <img src="{{asset('frontend')}}/images/collection-item2.jpg" alt="product-item" class="border-rounded-10 img-fluid jarallax-img">
+          <img src="{{asset('assets/frontend')}}/images/collection-item2.jpg" alt="product-item" class="border-rounded-10 img-fluid jarallax-img">
           <div class="card-detail p-3 m-3 p-lg-5 m-lg-5">
             <h3 class="card-title display-3">
               <a href="#">Sneakers Collection</a>
