@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e5fbbe6137dc77bcd5b6646b5dd75b52",
+    "content-hash": "42fca071b73b86fc9578e32508067f9c",
     "packages": [
         {
             "name": "brick/math",
@@ -2582,6 +2582,50 @@
                 }
             ],
             "time": "2024-07-20T21:41:07+00:00"
+        },
+        {
+            "name": "prince-rai/custom-auth",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-princerai/prince-rai-custom-auth.git",
+                "reference": "1cecb3f7ff0b1de78d34152c110064b7fc594656"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-princerai/prince-rai-custom-auth/zipball/1cecb3f7ff0b1de78d34152c110064b7fc594656",
+                "reference": "1cecb3f7ff0b1de78d34152c110064b7fc594656",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "PrinceRai\\CustomAuth\\CustomAuthServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PrinceRai\\CustomAuth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Prince Rai",
+                    "email": "princerai5584@gmail.com"
+                }
+            ],
+            "description": "Custom authentication package for Laravel by Prince Rai",
+            "support": {
+                "issues": "https://github.com/laravel-princerai/prince-rai-custom-auth/issues",
+                "source": "https://github.com/laravel-princerai/prince-rai-custom-auth/tree/v1.0.5"
+            },
+            "time": "2025-03-30T04:57:26+00:00"
         },
         {
             "name": "psr/clock",
